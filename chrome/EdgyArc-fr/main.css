@@ -90,7 +90,7 @@
 }
 
 /* fix sidebar opacity when auto collapse enabled **/
-:root[titlepreface="᠎"] {
+:root {
   #sidebar-header {
     visibility: collapse !important;
   }
@@ -175,10 +175,7 @@
     }
   }
   @media (-moz-bool-pref: "af.edgyarc.show-sidebar-header") {
-    :root:not([titlepreface="᠎"]) #sidebar {
-      border-radius: 0px 0px 6px 6px !important;
-    }
-    :root[titlepreface="᠎"] #sidebar {
+    :root #sidebar {
       border-radius: 6px 6px 6px 6px !important;
     }
   }

@@ -11,7 +11,7 @@
       border-radius: 0 0 0 0 !important;
     }
   }
-  :root[titlepreface="᠎"] {
+  :root {
     #sidebar-box {
       padding-left: 1px !important;
       &:hover > #sidebar {
